@@ -1,0 +1,29 @@
+public class Main
+{
+    public static void main(String[] args) {
+      Scanner = new Scanner(System.in);
+       
+       for (i = 0; < 3; i++){
+          System.out.print("Digite o nome:");
+               clientes[i] [0] = scanner.nextLine();
+               
+            System.out.print("Digite o endereço:");
+               clientes[i] [1] = scanner.nextLine();
+               
+              System.out.print("Digite o CPF:" + (i + 1) );
+               clientes[i] [2] = scanner.nextLine();
+               
+                System.out.print("Digite o telefone:" + (i + 1));
+               clientes[i] [3] = scanner.nextLine();
+           }
+
+           System.out.println("\nMatriz preenchida:");
+             for(i = 0; < 3; i++){
+           System.out.println("Nome:" +clientes[i] [0]);
+            System.out.println("Endereço:" +clientes[i] [1]);
+              System.out.println("Cpf:" +clientes[i] [2]);
+               System.out.println("telefone:" +clientes[i] [3]);
+                System.out.println();
+       }
+    }
+}
