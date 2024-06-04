@@ -1,0 +1,36 @@
+public class Main {
+  public static void main(String[] args) {
+      
+      	Scanner leia = new Scanner(System.in); 
+      	
+     	     double nota = 1;
+     	     double nota2 = 2;
+     	     double nota3 = 3;
+     	     double soma = nota + nota2 + nota3;]
+     	     double media = soma / 3;
+     	     
+     	     	System.out.println("Qual a sua primeira nota?");
+             	nota = leia.nextInt();
+             	
+             	System.out.println("Qual a sua segunda nota?");
+             	nota2 = leia.nextInt();
+             	
+             	System.out.println("Qual a sua terceira nota?");
+             	nota3 = leia.nextInt();
+        
+             	
+             	if( >= 7){
+             	    System.out.println("Você passou de ano :)")
+             	}
+             	else if( <7 ){
+             	     System.out.println("Você não passou de ano :(")
+             	}
+             	
+             	
+             	
+             	 
+	  	}
+	
+	
+	
+}
